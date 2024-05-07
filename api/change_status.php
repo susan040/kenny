@@ -86,7 +86,7 @@ if ($user_id) {
                 echo $response;
             } else {
                 // Error occurred while changing the status
-                $response = json_encode(['message' => 'Failed to change appointment status']);
+                $response = json_encode(['message' => 'Sorry Failed to change appointment status']);
                 header('Content-Type: application/json');
                 echo $response;
             }

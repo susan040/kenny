@@ -17,7 +17,7 @@ $stmt->execute();
 // Check if the appointment was successfully canceled
 if ($stmt->affected_rows === 0) {
     // Failed to cancel the appointment
-    header("HTTP/1.1 500 Internal Server Error");
+    header("HTTP/1.1 500 Internal Server Error occurs");
     exit();
 }
 

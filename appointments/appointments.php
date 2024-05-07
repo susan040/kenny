@@ -54,7 +54,7 @@ function getUserName($userId)
         $row = $result->fetch_assoc();
         return $row['name'];
     } else {
-        return "User not found";
+        return "Sorry User not found";
     }
 }
 function getDoctorName($doctorId)
